@@ -1,0 +1,131 @@
+
+
+
+
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid #94a3b8;
+  border-radius: 50%;
+  border-top-color: #645cff;
+  animation: spinner 0.6s linear infinite;
+  margin: 0 auto;
+}
+
+
+.grid-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 75%;
+  background-color: #2196F3;
+  padding: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  /* font-size: 20px; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footstyle {
+  background-color: rgb(255, 162, 0);
+  width: 83%;
+  margin: auto;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+}
+.cart-icon {
+  font-size: 2.25rem;
+  /* color: var(--white); */
+}
+.amount-container {
+  position: absolute;
+  top: -0.85rem;
+  right: 40%;
+  width: 1.75rem;
+  height: 1.75rem;
+  /* background: var(--primary-300); */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(248, 39, 39);
+}
+.total-amount {
+  /* color: var(--white); */
+  font-size: 1.25rem;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+@media screen and (min-width: 800px){
+  .grid-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 35% 35%;
+    background-color: #2196F3;
+    padding: 20px;
+  }
+  .amount-container {
+    position: absolute;
+    top: -0.85rem;
+    right: 45%;
+    width: 1.75rem;
+    height: 1.75rem;
+    /* background: var(--primary-300); */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+
+  .grid-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 35% 35%;
+    background-color: #2196F3;
+    padding: 20px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    /* font-size: 20px; */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .footstyle {
+    background-color: rgb(255, 162, 0);
+    width: 83%;
+    margin: auto;
+  }
+  .amount-container {
+    position: absolute;
+    top: -0.85rem;
+    right: 47%;
+    width: 1.75rem;
+    height: 1.75rem;
+    /* background: var(--primary-300); */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
